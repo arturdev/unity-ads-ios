@@ -8,7 +8,6 @@ let package = Package(name: "UnityAds",
 		      targets: [
 			.target(name: "UnityAds",
 				path: "SourceCode",
-			       	exclude: ["Info.plist"],
 				resources: []),
 		      ],
 		      swiftLanguageVersions: [.v5]
